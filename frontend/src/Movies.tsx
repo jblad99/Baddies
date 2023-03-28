@@ -18,6 +18,7 @@ function MovieList() {
         Year: 1992,
         Director: 'Tim Burton',
         Rating: 'PG-13',
+        Edited: '',
       },
     ]);
   };
@@ -38,6 +39,7 @@ function MovieList() {
               <th>Director</th>
               <th>Rating</th>
               <th>Category</th>
+              <th>Edited</th>
             </tr>
           </thead>
           <tbody>
@@ -49,6 +51,7 @@ function MovieList() {
                 <td>{m.Director}</td>
                 <td>{m.Rating}</td>
                 <td>{m.Category}</td>
+                <td>{m.Edited}</td>
               </tr>
             ))}
           </tbody>
