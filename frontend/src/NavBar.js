@@ -1,3 +1,5 @@
+// This file creates the navbar that is used to navigate between pages
+// The 'react-router'dom' is used for that navigation and includes links to all the pages and a site title
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 
 export default function Navbar() {

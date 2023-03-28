@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Page containing information about Joel Hilton's podcast Baconsale
+
 function PodcastInfo(props: any) {
   return (
     <>

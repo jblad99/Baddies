@@ -9,6 +9,11 @@ import PodcastInfo from './Podcasts';
 import styled from 'styled-components';
 import './styles.css';
 
+//Josh Blad
+//Section 04
+//Assignment 13
+//This contains the main App function for this react website. It calls the other functions and also configures the routing
+
 const NavUnlisted = styled.ul`
   text-decoration: none;
 `;

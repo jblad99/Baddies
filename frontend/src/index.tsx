@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 
+// Configures the broswer router to be used in this React application. This routing is done inside the App function
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement,
 );

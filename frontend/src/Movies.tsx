@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import data from './MovieData.json';
 
+// Loads the data for the movies in Joel Hilton's Movie Collection into a table
+
 const mds = data.MovieDataSample;
 
 function MovieList() {

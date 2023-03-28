@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Home page for Joel Hilton's Film Collection
+
 function HomeInfo() {
   return (
     <>
